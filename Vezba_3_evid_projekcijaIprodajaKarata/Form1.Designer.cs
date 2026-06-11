@@ -28,12 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 55F);
+            label1.Location = new Point(39, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(424, 99);
+            label1.TabIndex = 0;
+            label1.Text = "Dobro dosli";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(79, 251);
+            button1.Name = "button1";
+            button1.Size = new Size(104, 61);
+            button1.TabIndex = 1;
+            button1.Text = "Uloguj se";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(312, 251);
+            button2.Name = "button2";
+            button2.Size = new Size(96, 61);
+            button2.TabIndex = 2;
+            button2.Text = "Registruj se";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(494, 450);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Name = "Form1";
             Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private Button button1;
+        private Button button2;
     }
 }
