@@ -21,5 +21,10 @@ namespace Vezba_3_evid_projekcijaIprodajaKarata
         {
 
         }
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -30,32 +30,42 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            dataGridView1 = new DataGridView();
-            panel1 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            dataGridView2 = new DataGridView();
             panel2 = new Panel();
-            button1 = new Button();
-            button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            dataGridView2 = new DataGridView();
+            tabPage2 = new TabPage();
+            panel1 = new Panel();
             button6 = new Button();
+            button5 = new Button();
+            button4 = new Button();
+            label2 = new Label();
+            label1 = new Label();
+            dataGridView1 = new DataGridView();
+            tabPage3 = new TabPage();
+            dataGridView3 = new DataGridView();
+            panel3 = new Panel();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            tabPage2.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
             // 
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
             tabControl1.Dock = DockStyle.Fill;
             tabControl1.Location = new Point(0, 0);
             tabControl1.Name = "tabControl1";
@@ -76,6 +86,53 @@
             tabPage1.Text = "Filmovi";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(button2);
+            panel2.Controls.Add(button1);
+            panel2.Dock = DockStyle.Left;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(200, 416);
+            panel2.TabIndex = 1;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(17, 379);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 2;
+            button3.Text = "Izbrisi film";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(101, 379);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 1;
+            button2.Text = "Izmeni film";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(58, 340);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Dodaj film";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Dock = DockStyle.Fill;
+            dataGridView2.Location = new Point(3, 3);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.Size = new Size(786, 416);
+            dataGridView2.TabIndex = 0;
+            // 
             // tabPage2
             // 
             tabPage2.Controls.Add(panel1);
@@ -87,15 +144,6 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projekcije";
             tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(3, 3);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(786, 416);
-            dataGridView1.TabIndex = 0;
             // 
             // panel1
             // 
@@ -110,70 +158,23 @@
             panel1.Size = new Size(203, 416);
             panel1.TabIndex = 1;
             // 
-            // label1
+            // button6
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(22, 21);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            button6.Location = new Point(101, 383);
+            button6.Name = "button6";
+            button6.Size = new Size(75, 23);
+            button6.TabIndex = 4;
+            button6.Text = "Izmeni";
+            button6.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // button5
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(23, 56);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Dock = DockStyle.Fill;
-            dataGridView2.Location = new Point(3, 3);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(786, 416);
-            dataGridView2.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            panel2.Controls.Add(button3);
-            panel2.Controls.Add(button2);
-            panel2.Controls.Add(button1);
-            panel2.Dock = DockStyle.Left;
-            panel2.Location = new Point(3, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(200, 416);
-            panel2.TabIndex = 1;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(58, 340);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Dodaj film";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(101, 379);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "Izmeni film";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(17, 379);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 2;
-            button3.Text = "Izbrisi film";
-            button3.UseVisualStyleBackColor = true;
+            button5.Location = new Point(5, 383);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 3;
+            button5.Text = "Izbrisi";
+            button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -184,23 +185,92 @@
             button4.Text = "Dodaj projekciju";
             button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // label2
             // 
-            button5.Location = new Point(5, 383);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 3;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            label2.AutoSize = true;
+            label2.Location = new Point(23, 56);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 1;
+            label2.Text = "label2";
             // 
-            // button6
+            // label1
             // 
-            button6.Location = new Point(101, 383);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 23);
-            button6.TabIndex = 4;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(22, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Dock = DockStyle.Fill;
+            dataGridView1.Location = new Point(3, 3);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(786, 416);
+            dataGridView1.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            tabPage3.Controls.Add(panel3);
+            tabPage3.Controls.Add(dataGridView3);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(792, 422);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Analiza";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Dock = DockStyle.Fill;
+            dataGridView3.Location = new Point(3, 3);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.Size = new Size(786, 416);
+            dataGridView3.TabIndex = 0;
+            dataGridView3.CellContentClick += dataGridView3_CellContentClick;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(button9);
+            panel3.Controls.Add(button8);
+            panel3.Controls.Add(button7);
+            panel3.Dock = DockStyle.Left;
+            panel3.Location = new Point(3, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(200, 416);
+            panel3.TabIndex = 1;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(81, 331);
+            button7.Name = "button7";
+            button7.Size = new Size(75, 23);
+            button7.TabIndex = 0;
+            button7.Text = "button7";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(5, 383);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 1;
+            button8.Text = "button8";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(109, 383);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 23);
+            button9.TabIndex = 2;
+            button9.Text = "button9";
+            button9.UseVisualStyleBackColor = true;
             // 
             // Bioskop
             // 
@@ -212,12 +282,15 @@
             Text = "Bioskop";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -238,5 +311,11 @@
         private Button button6;
         private Button button5;
         private Button button4;
+        private TabPage tabPage3;
+        private DataGridView dataGridView3;
+        private Panel panel3;
+        private Button button9;
+        private Button button8;
+        private Button button7;
     }
 }
